@@ -1,5 +1,5 @@
 ## weatherSpider
-爬取天气后报网站（www.tianqihoubao.com/weather/city.aspx）上的历史天气数据，并使用MongoDB进行数据存储，pyecharts进行数据分析和展示.
+爬取天气后报网站（www.tianqihoubao.com/weather/city.aspx） 上的历史天气数据，并使用MongoDB进行数据存储，pyecharts进行数据分析和展示.
 ## usage
 python spider.py -c 城市拼音名
 ## example
