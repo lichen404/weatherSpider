@@ -48,7 +48,7 @@ if __name__ == '__main__':
     parser.add_argument('-c', '--city', type=str, help='city name')
     args = parser.parse_args()
     city = args.city
-    if 'http://www.tianqihoubao.com/lishi/' + city + '.html' in city_config.city_list:
+    if 'http://www.tianqihoubao.com/lishi/' + city + '.html' in city_config.city_dict:
         main(city)
     else:
         print('city' + city + 'not found,please check your input')

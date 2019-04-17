@@ -117,7 +117,7 @@ def create_sun_and_rain_day_htm(city):
 
 def get_city_name(city):
     city_url = 'http://www.tianqihoubao.com/lishi/' + city + '.html'
-    city_name = city_config.city_list[city_url]
+    city_name = city_config.city_dict[city_url]
     return city_name
 
 # 获取城市六月份天气关键词词云
