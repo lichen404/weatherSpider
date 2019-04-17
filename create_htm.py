@@ -138,7 +138,7 @@ def create_city_wordcloud(city):
    
     wordcloud.render(city_name + "词云图.html")
 
-
+#生成云南大理对应的图表，需要在数据库中存在爬取过的数据。如果需要生成其他城市的图表，在这里可以修改
 if __name__ == '__main__':
     create_weather_htm("dali")
     create_temp_htm("dali")
