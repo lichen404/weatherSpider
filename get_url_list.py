@@ -1,6 +1,8 @@
+#用于爬取所有城市的URL和对应名称,爬取内容已放在city_config.py
 import requests
 from bs4 import BeautifulSoup
 import time
+
 
 header = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
