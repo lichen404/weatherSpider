@@ -31,3 +31,7 @@ python spider.py  -c  "zhengzhou"  #爬取并存储郑州市2011年至2019年3�
 
 郑州六月天气词云
 ![六月天气词云](https://www.stayw1thme.xyz/usr/uploads/2019/04/1615476831.png)
+
+## 未解决BUG
+* 网站本身存在一些问题，有的页面存在日期重复的情况，如http://www.tianqihoubao.com/lishi/sheqi/month/201801.html，1月1日出现了两次，需要去重。
+* 请求有时会超时
