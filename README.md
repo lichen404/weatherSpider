@@ -14,23 +14,23 @@ python get_url_list #获取所有城市对应的url以及城市名称，爬取�
 ## example
 python spider.py  -c  "zhengzhou"  #爬取并存储郑州市2011年至2019年3月的天气数据
 
-![爬虫运行](https://www.stayw1thme.xyz/usr/uploads/2019/04/3484431250.png)
+![爬虫运行](http://www.stayw1thme.xyz/wp-content/uploads/2019/04/3484431250.png)
 
 郑州2011年至今气温变化
 
-![气温变化](https://www.stayw1thme.xyz/usr/uploads/2019/04/2697402371.png
+![气温变化](http://www.stayw1thme.xyz/wp-content/uploads/2019/04/2697402371.png
 )
 
 郑州历史天气占比
 
-![郑州历史天气占比](https://www.stayw1thme.xyz/usr/uploads/2019/04/2345370710.png)
+![郑州历史天气占比](http://www.stayw1thme.xyz/wp-content/uploads/2019/04/2345370710.png)
 
 郑州历年晴雨天总数
 
-![郑州历年晴雨天总数](https://www.stayw1thme.xyz/usr/uploads/2019/04/1015283070.png)
+![郑州历年晴雨天总数](http://www.stayw1thme.xyz/wp-content/uploads/2019/04/1015283070.png)
 
 郑州六月天气词云
-![六月天气词云](https://www.stayw1thme.xyz/usr/uploads/2019/04/1615476831.png)
+![六月天气词云](http://www.stayw1thme.xyz/wp-content/uploads/2019/04/1615476831.png)
 
 ## 未解决BUG
 * 网站本身存在一些问题，有的页面存在日期重复的情况，如http://www.tianqihoubao.com/lishi/sheqi/month/201801.html ，1月1日出现了两次，需要去重。
